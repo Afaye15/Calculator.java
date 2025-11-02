@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class gradeIndicator {
+    public static void main(String[] args){
+        
+        System.out.println("The quarter is over! What is you grade? Do not input decimals");
+        Scanner scan = new Scanner(System.in);
+        int grade = scan.nextInt();
+
+        if (90 <= grade) //false
+        {
+            System.out.println("Yippe!! You got an A!");
+        }
+        else if (grade >= 80)
+        {
+          System.out.println("Good job, you got a B.");  
+        }
+        else if (grade >= 70)
+        {
+          System.out.println("You got a C. Do better next time. Or else.");  
+        }
+        else if (grade >= 65)
+        {
+          System.out.println("You got a D. Are you not even trying?");  
+        }
+        else {
+             System.out.println("You got a F. I would be freaking out if i were you.");  
+        }
+        scan.close();
+    }
+
+}
