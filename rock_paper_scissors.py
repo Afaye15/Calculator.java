@@ -1,5 +1,5 @@
 from random import random
-
+#this is a classic rock paper scissor game in py that allows the comp to respond based on outcome
 print("Pick a move: r, p, or s")
 my_move = input("> ")
 
